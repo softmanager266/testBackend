@@ -201,7 +201,7 @@ public class TablaCongreso  {
 	public void setNombreDelProducto(String nombreDelProducto) {
 		this.nombreDelProducto = nombreDelProducto;
 	}
-	@Column(name = "imagenes", nullable = false, length = 100)
+	@Column(name = "imagenes", nullable = false, length = 800)
 	public String getImagenes() {
 		return this.imagenes;
 	}
